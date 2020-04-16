@@ -1,5 +1,3 @@
-# test-jdbc - postgres , oracle, sqlserver
-
 # Download
 ```
 wget https://github.com/inv3r53/test-jdbc/releases/download/v0.1/test-jdbc-0.0.1-SNAPSHOT-shaded.jar
@@ -24,3 +22,5 @@ java -jar test-jdbc-0.0.1-SNAPSHOT-shaded.jar "jdbc:jtds:sqlserver://host:51589;
 ```
 java -jar test-jdbc-0.0.1-SNAPSHOT-shaded.jar jdbc:postgresql://localhost:5432/dbname dbuser dbpass
 ```
+
+#### To support more JDBC databases - update pom.xml with dependency for new  database driver jar
